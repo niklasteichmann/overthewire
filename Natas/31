@@ -1,0 +1,8 @@
+hay7aecuungiuKaezuathuk9biin0pu1
+[watch these excellent talks about Perl vulnerabilities https://www.youtube.com/watch?v=noQcWra6sbU and https://www.youtube.com/watch?v=RPvORV2Amic]
+[pretty much exactly this case is being exploited]
+[if one parameter appears multiple times in the request, it is interpreted as a list]
+[the upload() function only checks if one of them is a file]
+[if the first one is the string ARGV, the diamond operator iterates over all arguments of the method (in this case, the entire perl program)]
+[then, each of these arguments is interpreted as a file path and can optionally be executed]
+[see 31_script.py] 

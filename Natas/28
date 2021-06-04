@@ -1,0 +1,26 @@
+JWwR438wkgTsNKBbcJoowyysdM82YjeF
+[testing multiple queries]
+http://natas28.natas.labs.overthewire.org/search.php/?query=G%2BglEae6W%2F1XjA7vRm21nNyEco%2Fc%2BJ2TdR0Qp8dcjP		prefix
+Lof%2FYMma1yzL2UfjQXqQEop36O0aq%2BC10FxP%2FmrBQjq0eOsaH%2BJhosbBUGEQmz%2Fto%3D 	""
+KriAqPE2%2B%2BuYlniRMkobB1     	a
+IYiwNnSJY7KHJGU%2BXjuMzV       	b
+KEMZKNASy09t5ooTNAbaX0         	c
+JK%2B%2BeakdVfLS7bR62AoUrg	ab
+I48uilCa00QT5ywpziWEtC     						bc
+Ktr51auK9EPQHhJapm3akv 							?
+LA9VE0ga2mtCFqzqUJJfB2mi4rXbbzHxmhT3Vnjq2qkEJJuT5N6gkJR5mVucRLNRo%3D 	abc
+LgesIAyDrPngSqSSNaSPTJ
+
+vfoQVOxoUVz5bypVRFkZR5BPSyq%2FLC12hqpypTFRyXA 		1
+SHmaB7HSm1mCAVyTVcLgDq3tm9uspqc7cbNaAQ0sTFc   		2
+mi4rXbbzHxmhT3Vnjq2qkEJJuT5N6gkJR5mVucRLNRo		3
+
+K9L%2BojDDNC4HmcoohoqLMrKSh%2FPMVHnhLmbzHIY7GAR1bVcy3Ix3D2Q5cVi8F6bmY%3D
+
+IFJJdk81Qbm5onM4n5XT7DSHmaB7HSm1mCAVyTVcLgDq3tm9uspqc7cbNaAQ0sTFc 		" 
+LEBLxXElqwWu1x8%2FkRwoc%2FKSh%2FPMVHnhLmbzHIY7GAR1bVcy3Ix3D2Q5cVi8F6bmY%3D	/"
+[this is base64 encoded, and apparently an encryption in blocks of 16 is applied on it]
+[send a request that stops at exactly the end of one block (the request is empty)]
+[send a second request that stops after the first block and then contains an SQL injection]
+[merge the two requests]
+[see 28_script.py]

@@ -1,0 +1,4 @@
+chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ
+[every request is redirected before the page is shown]
+[the trick is to forbid redirecting]
+[see 23_script.py]

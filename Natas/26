@@ -1,0 +1,7 @@
+oGgWAJ7zcGT28vYazGo4rkhOPDhBu34T
+[the code uses the function "unserialize"]
+[this is a possible entrypoint!]
+[because the method doesn't check if the unserialized class is of the given type, we can simply send a serialized Logger]
+[the Logger gets a php script as exit message and a file path into the images folder]
+[this way, an accessable php script is created]
+[see 26_script.py and 26_helper.php]

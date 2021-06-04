@@ -1,0 +1,5 @@
+xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
+[a random session id is generated and assigned per user]
+[the admin has one of them]
+[this means we can just randomly try all 640 of them]
+[see 18_script.py]

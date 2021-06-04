@@ -1,0 +1,7 @@
+GHF6X7YwACaYYssHVY05cFq83hRktl4c
+[first of all, the chosen language is used to find a file and execute the php within it]
+[there is an escaping for ../, but it is only applied once]
+[so doing something like ....// still works]
+[additionally, the User-Agent header is written into a log file that is named after the session]
+[by setting the User-Agent header to php code and the language to the path of that log file, you can execute arbitrary code]
+[see 25_script.py]

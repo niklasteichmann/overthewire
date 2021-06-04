@@ -1,0 +1,7 @@
+eofm3Wsshxc5bwtVnEuGIlr7ivb9KABF
+[looking at the source code, the session is saved in a file]
+[format is likte this "key value"]
+[its sorted alphabetically (wtf)]
+[only the first value is set]
+[idea: set name to "test\nadmin 1" so that when splitting the file, only "admin 1" is read]
+[see 20_script.py]

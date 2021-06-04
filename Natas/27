@@ -1,0 +1,6 @@
+55TBjpPZUUJgVP5b3BnbG6ON9uDPVzCJ
+[the database has a limit on characters for username and password of 64]
+[if a username is longer than 64 characters, it is truncated]
+[spaces at the end of words are being omitted]
+[with this information, we can create a second natas28 user in the database]
+[see 27_script.py]

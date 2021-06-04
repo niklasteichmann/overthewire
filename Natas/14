@@ -1,0 +1,4 @@
+Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+[SQL injection timeeeeee!]
+[fake pw request, add ?debug to path to get nice debug info]
+asdf" union select * from users where "asdf" = "asdf"

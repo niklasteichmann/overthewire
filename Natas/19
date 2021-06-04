@@ -1,0 +1,12 @@
+4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
+[lets check how the session ids work]
+asdf - asdf: "3438302d66647361"
+asdf - asdf: "3530382d66647361"
+asdf - asdf: "3332312d66647361"
+fdsa - fdsa: "3530332d61736466"
+fdsa - asdf: "3333312d61736466"
+admin - : "3439312d61646d696e"
+[seems like the user name is encoded in hex at the end with a dash before it]
+[and before that, there always seems to be 3x3y3z where xyz are numbers]
+[lets try random combos!]
+[see 19_script.py]

@@ -1,0 +1,11 @@
+shoogeiGa2yee3de6Aex8uaXeech5eey
+[research shows that the vulnerability is due to PHAR deserialization]
+[PHARs are PHP archives]
+[many PHP file operations, such as filesize, can be used to deserialize objects in the metadata of PHAR objects]
+[to do this, //phar must be the start of the filename]
+[so, 3 steps:]
+[1. upload a php file that echos the password]
+[2. upload a phar file with MD5 and filename that match the first file]
+[3. send a //phar request that leads to deserialization of the phar file]
+[see 33_script.py and 33_phar.php]
+[be careful, php serialization was changed with php7.4]

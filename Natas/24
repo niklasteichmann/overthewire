@@ -1,0 +1,9 @@
+OsRmXFguozKpTZZ5X14zNO43379LZveg
+[the length of the password is being compared]
+[the max length is 20]
+[just try 20 passwords?]
+[no success, it seems the string its compared with is empty]
+[that means strcmp must return 0 even though the other string can't be shorter...]
+[that can only happen when strcmp is given a string and a different type]
+[modify the type of the parameter passwd in the url!]
+[see 24_script.py]

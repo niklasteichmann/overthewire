@@ -1,0 +1,7 @@
+U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+
+[look at source code]
+[see that value "bgcolor":"#000000" is set and encoded in cookie]
+[XOR part of cookie that matches bgcolor string above with the string to get the encryption key]
+qw8J
+[modify decrypted cookie, encrypt, set]

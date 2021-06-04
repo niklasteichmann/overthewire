@@ -1,0 +1,5 @@
+wie9iexae0Daihohv8vuu3cei9wahf0e
+[looks like pretty standard sql injection]
+[the quoting of perl only works when strings are being input, not for arrays]
+[for arrays, it just returns the first element]
+[see 30_script.py]

