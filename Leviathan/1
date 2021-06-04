@@ -1,0 +1,7 @@
+rioGegei8m
+ssh leviathan1@leviathan.labs.overthewire.org -p 2223
+[hexdump check]
+[strings check doesn't work apparently :(]
+[find "sex"]
+[./check sex]
+[cat /etc/leviathan_pass/leviathan2]

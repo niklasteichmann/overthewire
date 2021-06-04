@@ -1,0 +1,7 @@
+Ahdiemoo1j
+ssh leviathan3@leviathan.labs.overthewire.org -p 2223
+ltrace ./level3
+[insert wrong pw]
+[find strcomp with real pw]
+snlprintf
+[cat /etc/leviathan_pass/leviathan4]

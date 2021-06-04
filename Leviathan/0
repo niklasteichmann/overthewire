@@ -1,0 +1,6 @@
+leviathan0
+ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+[hidden folder!]
+[ls -la]
+[cd .backup]
+[grep "pass"]

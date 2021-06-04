@@ -1,0 +1,6 @@
+vuH0coox6m
+ssh leviathan4@leviathan.labs.overthewire.org -p 2223
+[ls -la]
+[cd .trash]
+[./bin]
+[transform bytes to ascii]
