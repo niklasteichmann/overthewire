@@ -1,0 +1,5 @@
+ssh bandit.labs.overthewire.org -l bandit27 -p 2220
+3ba3118a22e93127a4ed485be72ef5ea
+[make temp dir]
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+cat repo/README

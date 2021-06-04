@@ -1,0 +1,7 @@
+ssh bandit.labs.overthewire.org -l bandit31 -p 2220
+47e603bb428404d265f59c42920d81e5
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+echo "May I come in?" > key.txt
+git add key.txt -f
+git commit -m ""
+git push

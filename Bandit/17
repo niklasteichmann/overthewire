@@ -1,0 +1,2 @@
+ssh bandit.labs.overthewire.org -l bandit17 -p 2220 -i overthewire/Bandit/bandit17.sshkey
+diff passwords.new passwords.old

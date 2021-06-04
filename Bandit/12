@@ -1,0 +1,8 @@
+ssh bandit.labs.overthewire.org -l bandit10 -p 2220
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+apply 
+- file (find out file type)
+- gunzip
+- bunzip2
+- tar -x -f
+until the file pops out

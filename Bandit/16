@@ -1,0 +1,4 @@
+bandit.labs.overthewire.org -l bandit16 -p 2220
+cluFn7wTiGryunymYOu4RcffSxQluehd
+nmap localhost -p31000-32000
+openssl s_client -connect localhost:31790

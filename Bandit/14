@@ -1,0 +1,3 @@
+bandit.labs.overthewire.org -l bandit14 -p 2220
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+nc localhost 30000

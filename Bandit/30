@@ -1,0 +1,8 @@
+ssh bandit.labs.overthewire.org -l bandit30 -p 2220
+5b90576bedb2cc04c86a9e924ce42faf
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+cd repo
+cat REAMDE.md
+git tag
+git show secret
+

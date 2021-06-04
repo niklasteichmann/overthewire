@@ -1,0 +1,11 @@
+ssh bandit.labs.overthewire.org -l bandit25 -p 2220
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+cat /etc/passwd | grep bandit26
+cat /usr/bin/showtext
+cat bandit26.sshkey
+[make window small]
+ssh -i bandit26.sshkey bandit26@localhost
+v
+:set shell=/bin/bash
+:shell
+cat /etc/bandit_pass/bandit26

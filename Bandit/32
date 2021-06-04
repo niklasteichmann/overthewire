@@ -1,0 +1,4 @@
+ssh bandit.labs.overthewire.org -l bandit32 -p 2220
+56a9bf19c63d650ce78e6ec0354ee45e
+$0 [access current shell]
+cat ../bandit33/README.txt 

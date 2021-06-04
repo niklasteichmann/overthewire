@@ -1,0 +1,5 @@
+ssh bandit.labs.overthewire.org -l bandit5 -p 2220
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+find . -size 1033c
+vim maybehere07/.file2
+

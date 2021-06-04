@@ -1,0 +1,7 @@
+ssh bandit.labs.overthewire.org -l bandit23 -p 2220
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+cat /etc/cron.d/cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+chmod +x 23_bash.sh
+cp 23_bash.sh /var/spool/bandit24/
+cat 23_pw_blablabla

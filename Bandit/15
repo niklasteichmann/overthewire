@@ -1,0 +1,3 @@
+bandit.labs.overthewire.org -l bandit15 -p 2220
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+openssl s_client -connect localhost:30001

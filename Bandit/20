@@ -1,0 +1,8 @@
+ssh bandit.labs.overthewire.org -l bandit20 -p 2220
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+screen
+screen
+(switch between screens with ctrl+a+[0,1])
+nc -l -p 5000
+./suconnect 5000
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j

@@ -1,0 +1,7 @@
+ssh bandit.labs.overthewire.org -l bandit28 -p 2220
+0ef186ac70e04ea33b4c1853d2526fa2
+git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+cd repo
+git log
+git checkout HEAD^1
+cat README.md

