@@ -1,0 +1,4 @@
+ssh krypton2@krypton.labs.overthewire.org -p 2231
+ROTTEN
+[ROT13 is shifting each letter by 13]
+tr 'A-Za-z' 'N-ZA-Mn-za-m'

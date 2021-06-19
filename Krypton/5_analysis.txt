@@ -1,0 +1,31 @@
+F_norm      F_sample0       F_sample1       F_sample2       
+
+E           O               V               I              
+T           Y               K               X             
+A           K               R               S            
+O           Z               F               L           
+I           C               U               V          
+N                      
+S                      
+H                     
+R                    
+D                   
+L           
+C           
+U           
+M           
+W           
+F           
+G           
+Y           
+P           
+B          
+V           
+K           
+J           
+X            
+Q           
+Z           
+            5               17              4               10              4               24
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ

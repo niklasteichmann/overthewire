@@ -1,0 +1,35 @@
+ssh krypton3@krypton.labs.overthewire.org -p 2231
+CAESARISEASY
+[first, we cound the occurrences for each character]
+cat filename | grep -o . | sort | uniq -c | sort -bnr
+[content of filename | search for each character, map them to one line | sort the lines | keep only unique ones, counting them | sort by number of occurrences]
+[second, we check the frequency of doubles]
+cat found1 found2 found3 | tr -d ' ' | grep -o -E '([A-Z])\1{1}' | sort | uniq -c | sort -bnr
+[more analysis follows ..........]
+[see 3_analysis.txt]
+S->e
+Q->a
+J->t
+U->s
+B->o
+N->r
+G->n
+C->i
+D->h
+Z->c
+V->l
+W->d
+M->u
+Y->p
+T->m
+X->f
+K->w
+E->g
+L->y
+A->b
+F->k
+I->v
+O->x
+R->j
+P->z
+H->q

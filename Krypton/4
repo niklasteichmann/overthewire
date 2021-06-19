@@ -1,0 +1,7 @@
+ssh krypton4@krypton.labs.overthewire.org -p 2231
+BRUTE
+[count the occurence for each letter per column]
+[analysing the amount of characters, we can find out the mapping
+[see 4_analysis.txt]
+FREKEY
+[applying the key to the pw, we get the solution]

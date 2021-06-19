@@ -1,0 +1,8 @@
+ssh krypton5@krypton.labs.overthewire.org -p 2231
+CLEARTEXT
+[the length of the key is unknown this time]
+[but an approach is still open: we can try out different lengths and look at the letter distribution]
+[3, 6 and 9 seem to have strong zipf-like distributions]
+[9 seems especially strong, which explains why 3 and 6 are (multiples etc)]
+[applying the same analysis as before, the password can be determined]
+QWCPWNUHT

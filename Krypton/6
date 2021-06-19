@@ -1,0 +1,9 @@
+ssh krypton6@krypton.labs.overthewire.org -p 2231
+RANDOM
+[lames level ever]
+[just encrypt some files like AAAAAAAAAAAAAAAAAAA or BBBBBBBBBBBBBBBBB or ABCDEF... or BCDEF...]
+[look at files via hexdump, here is a handy formatting]
+hexdump -e '16/1 "%03.2x"' -n 40 MYFILE
+[find encryption key]
+04 08 02 13 03 06 18 08 18 19 0a 13 07 0d 12 08 11 05 17 18 02 0f 05 14 04 0e 02 0a 11 0d
+[decrypt file]

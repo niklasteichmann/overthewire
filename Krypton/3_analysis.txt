@@ -1,0 +1,28 @@
+F_norm      F_sample    Fd_norm     Fd_sample   Fp_norm     Fp_sample       Ft_norm         Ft_sample
+
+E           S           SS          SS          TH          JD              THE             JDS
+T           Q           EE          VV          ER          DS              AND             JSN
+A           J           TT          JJ          ON          SN              THA             SNS
+O           U           FF          UU          AN          NS              ENT             YDS
+I           B           LL          BB          RE          UJ              ION             UYS
+N           N           MM          NN          HE          SQ              TIO             SGJ
+S           G           OO          GG          IN          SU              FOR             DSN
+H           C                                               CG              NDE             DCU
+R           D                                               DQ
+D           Z                                               SW
+L           V
+C           W
+U           M
+M           Y
+W           T
+F           X
+G           K
+Y           E
+P           L
+B           A
+V           F
+K           I
+J           O
+X           R
+Q           G
+Z           P
