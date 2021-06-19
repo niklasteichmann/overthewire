@@ -1,0 +1,6 @@
+ssh narnia1@narnia.labs.overthewire.org -p 2226
+efeidiedae
+[the code loads the value of a env variable and executes it as a c function]
+[the way to abuse that is to dump a c function there]
+[problem: null termination of strings]
+[find a fitting one on http://shell-storm.org/shellcode/]

