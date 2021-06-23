@@ -1,0 +1,12 @@
+faimahchiy
+ssh narnia5@narnia.labs.overthewire.org -p 2226
+[the buffer is being checked this time, so we can't just do a normal buffer overflow]
+[the exploit works through the %n placeholder for printf functions]
+[%n makes the function print the number of written bytes to an address that is being supplied]
+[so when the input string contains %n, it expects a memory address to precede]
+[luckily for us, the preceding memory is the start of our buffer]
+[using this, we can first overwrite the sizeof argument on the stack to a very high number]
+[to do this, use a pointer to the address 1 byte above the address of the sizeof parameter]
+[then write another 492 bytes (so 500 in total) and then overwrite i via %n using the address of i]
+
+narnia5@narnia:/narnia$ ./narnia5 $(python -c 'print "\xd5\x78\xff\xff\xf0\xd4\xff\xff%n"+492*"A"+"%n"')
